@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="killometrage_engine">Указать киллометраж</string>
+    <string name="select_interval">Выбрать интервал</string>
+    <string name="engine_history">Просмотреть историю</string>
+    <string name="gearbox_history">Просмотреть историю</string>
+    <string name="killometrage_gearbox">Указать киллометраж</string>
+    <string name="oil_change">Замена масла</string>
+    <string name="engine">(Д)</string>
+    <string name="gearbox">(К)</string>
+    <string name="engine_oil">Для двигателя</string>
+    <string name="gerabox_oil">Для коробки</string>
+    <string name="specify_killometrage">Укажите текущий киллометраж:</string>
+    <string name="btn_save_killometrage">Сохранить</string>
+    <string name="oil_change_history">История замены масла в двигателе</string>
+    <string name="text_killometrage">Киллометраж</string>
+    <string name="text_interval">Интервал:</string>
+</resources>

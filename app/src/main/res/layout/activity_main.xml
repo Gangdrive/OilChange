@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/start_Oil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/oil_change"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:id="@+id/start_layout_engine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:padding="50dp">
+
+        <TextView
+            android:id="@+id/engine_k"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="@string/engine"
+            />
+
+        <Button
+            android:id="@+id/kilometrage_engine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_press"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:textSize="14sp"
+            android:text="@string/killometrage_engine" />
+
+        <TextView
+            android:id="@+id/engine_i"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/engine"
+            android:layout_gravity="right"/>
+
+        <Button
+            android:id="@+id/select_interval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_press"
+            android:layout_marginBottom="30dp"
+            android:textSize="14sp"
+            android:text="@string/select_interval" />
+
+        <TextView
+            android:id="@+id/engine_h"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/engine"
+            android:layout_gravity="right"
+            />
+
+        <Button
+            android:id="@+id/engine_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_press"
+            android:layout_marginBottom="30dp"
+            android:textSize="14sp"
+            android:text="@string/engine_history" />
+
+        <TextView
+            android:id="@+id/gearbox_k"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gearbox"
+            android:layout_gravity="right"/>
+
+        <Button
+            android:id="@+id/kilometrage_gearbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/btn_press"
+            android:text="@string/killometrage_gearbox"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/gearbox_h"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gearbox"
+            android:layout_gravity="right"/>
+
+        <Button
+            android:id="@+id/gearbox_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_press"
+            android:textSize="14sp"
+            android:text="@string/gearbox_history" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
